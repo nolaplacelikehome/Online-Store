@@ -1,0 +1,28 @@
+.product-container {
+  width: 75%;
+  display: grid;
+  padding: 20px;
+}
+
+.product-card {
+  height: 400px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px #fff;
+  -webkit-box-shadow: 0 0 5px 2px #fff;
+  -moz-box-shadow: 0 0 5px 2px #fff;
+}
+.product-card .product-img {
+  height: 75%;
+  width: auto;
+}
+.product-card .product-description-container {
+  display: flex;
+  padding: 0 20px;
+  flex-direction: row;
+  height: 25%;
+  width: auto;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=ProductCard.css.map */

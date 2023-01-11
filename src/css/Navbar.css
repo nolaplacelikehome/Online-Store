@@ -1,0 +1,21 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+  max-width: 100%;
+}
+.nav-container .nav-list {
+  list-style: none;
+}
+.nav-container .nav-list .list-item {
+  display: inline;
+  padding: 0 20px;
+}
+.nav-container .nav-list * {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=Navbar.css.map */
